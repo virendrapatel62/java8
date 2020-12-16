@@ -4,22 +4,9 @@ import java.util.Arrays;
 import java.util.List;
 import java.util.function.Consumer;
 
-import java8.consumers.EncryptDecryptConsumer;
-
 public class ForEachDemo {
 	
-	public static void assignment1() {
-		List<String> list = Arrays.asList("Virenda" , "Mohan" , "Sohan" , "Dell");
-		EncryptDecryptConsumer consumer =  new EncryptDecryptConsumer();
-		
-		System.err.println("ENCRYPTED....");
-		List<String> enc =consumer.encrypt(list);
-		enc.forEach(System.out::println);
-		
-		System.err.println("DESCRYPED....");
-		List<String> dec =consumer.decrypt(enc);
-		dec.forEach(System.out::println);
-	}
+	
 
 	public static void main2(String[] args) {
 		List<String> list = Arrays.asList("Virenda" , "Mohan" , "Sohan" , "Dell");
@@ -44,7 +31,6 @@ public class ForEachDemo {
 //			}
 //		});
 		
-		assignment1();
 		
 		
 		
