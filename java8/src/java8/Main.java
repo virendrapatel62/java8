@@ -10,6 +10,8 @@ public class Main {
 		
 		animal.display();
 		human.display();
+		
+		System.out.println("....");
 	}
 
 }
